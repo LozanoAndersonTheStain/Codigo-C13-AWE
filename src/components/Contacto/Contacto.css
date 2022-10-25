@@ -2,6 +2,9 @@
   background-color: #00a2ff;
   color: #fff;
   padding: 50px 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .contacto .contenido-seccion {
@@ -18,6 +21,8 @@
 
 .contacto .container-items {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contacto .items {
@@ -26,8 +31,19 @@
   position: relative;
 }
 
-.contacto .items input,
 .contacto .items textarea {
+  display: block;
+  width: 100%;
+  padding: 18px;
+  border: none;
+  border-radius: 1.5rem;
+  margin-bottom: 20px;
+  background-color: #252a2e;
+  color: #fff;
+  font-size: 20px;
+}
+
+.contacto .items input {
   display: block;
   width: 100%;
   padding: 18px;
@@ -67,12 +83,12 @@
   width: 100%;
 }
 
-.contacto .items img {
+/* .contacto .items img {
   width: 100%;
   
-}
+} */
 
-.contacto .items .info {
+/* .contacto .items .info {
   position: absolute;
   top: 200px;
   background-color: #252a2e;
@@ -94,4 +110,4 @@
   color: #00f7ff;
   display: inline-block;
   margin-right: 20px;
-}
+} */
