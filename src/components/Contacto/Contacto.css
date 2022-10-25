@@ -1,0 +1,97 @@
+.contacto {
+  background-color: #00a2ff;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.contacto .contenido-seccion {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.contacto h2 {
+  font-size: 50px;
+  font-family: 'Lobster';
+  text-align: center;
+  padding: 20px 0;
+}
+
+.contacto .container-items {
+  display: flex;
+}
+
+.contacto .items {
+  width: 50%;
+  padding: 10px;
+  position: relative;
+}
+
+.contacto .items input,
+.contacto .items textarea {
+  display: block;
+  width: 100%;
+  padding: 18px;
+  border: none;
+  border-radius: 3rem;
+  margin-bottom: 20px;
+  background-color: #252a2e;
+  color: #fff;
+  font-size: 20px;
+}
+
+.contacto button {
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #fff;
+  width: fit-content;
+  display: block;
+  margin: 20px auto;
+  padding: 10px 22px;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+  z-index: 10;
+}
+
+.contacto button .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #00bd9b;
+  z-index: -1;
+  transition: 1s;
+}
+
+.contacto button:hover .overlay {
+  width: 100%;
+}
+
+.contacto .items img {
+  width: 100%;
+  
+}
+
+.contacto .items .info {
+  position: absolute;
+  top: 200px;
+  background-color: #252a2e;
+  padding: 20px;
+  max-width: 350px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contacto .items .info ul {
+  list-style: none;
+}
+
+.contacto .items .info ul li {
+  margin-bottom: 20px;
+}
+
+.contacto .items .info ul li i {
+  color: #00f7ff;
+  display: inline-block;
+  margin-right: 20px;
+}
