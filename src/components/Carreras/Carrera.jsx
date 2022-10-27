@@ -9,14 +9,13 @@ const Carrera = () => {
     )
     const data = await response.json()
     setCarrera(data)
-    console.log(data)
   }
   useEffect(() => {
     fechCarreras()
   }, [])
 
   return (
-    <div>
+    <div className="container">
       {carreras.map((carreraInfo) => (
         <section className="container-principal" id="container-principal">
           <section className="container-tarjets">
