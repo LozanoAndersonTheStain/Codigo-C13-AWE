@@ -22,7 +22,8 @@ const Carrera = () => {
                 saepe nostrum deserunt voluptates ab molestiae, quidem ratione
                 perspiciatis rem officia maiores suscipit commodi repudiandae,
                 provident unde, ducimus mollitia! Fuga saepe architecto placeat
-                quod deleniti?
+                quod deleniti? Lorem ipsum dolor sit amet consectetur
+                adipisicing elit.
               </h4>
               <button className="button">
                 <a href="#">Ver más</a>
@@ -78,43 +79,6 @@ const Carrera = () => {
           </div>
         </section>
       </section>
-
-      {/* <section id="carreras" className="fondo-carreras">
-        <section className="contasinerTarjet">
-          <div
-            className="tarjet"
-            style="--i:url(https://img.freepik.com/vector-premium/banner-conceptos-palabra-front-end-programacion-aplicaciones-web_106317-84.jpg?w=740)"
-          >
-            <div className="container2">
-              <h2>Frontend</h2>
-              <a href="#">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.{' '}
-              </a>
-            </div>
-          </div>
-
-          <div
-            className="tarjet"
-            style="--i:url(https://geekflare.com/wp-content/uploads/2021/09/Backend-solution.png)"
-          >
-            <div className="container2">
-              <h2>Backend</h2>
-              <a href="#">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </a>
-            </div>
-          </div>
-
-          <div className="tarjet" style="--i:url()">
-            <div className="container2">
-              <h2>Fullstack</h2>
-              <a href="#">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </a>
-            </div>
-          </div>
-        </section>
-      </section> */}
     </div>
   )
 }
