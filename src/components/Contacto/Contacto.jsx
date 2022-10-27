@@ -37,8 +37,8 @@ const Contacto = () => {
               ></textarea>
               <button>
                 Enviar Mensaje
-                <i class="fa-solid fa-paper-plane"></i>
-                <span class="overlay"></span>
+                <i className="fa-solid fa-paper-plane"></i>
+                <span className="overlay"></span>
               </button>
             </div>
           </div>
