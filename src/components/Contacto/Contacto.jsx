@@ -7,10 +7,12 @@ const Contacto = () => {
       {/* Contacto */}
       <section className="contacto" id="contacto">
         <div className="contenido-seccion">
-          <h1 className="title-principal">
+          <h1>Contactanos</h1>
+          <hr />
+          <h2>
             Comunicate con nosotros para conocer mas sobre nosotros y los
             servicios que ofrecemos para ti
-          </h1>
+          </h2>
           <div className="container-items">
             <div className="items">
               <input

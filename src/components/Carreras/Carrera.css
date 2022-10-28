@@ -5,19 +5,19 @@
 
 .container {
   display: flex;
-  background: #7fffd4;
+  background: #4ac49b;
   flex-wrap: wrap;
 }
 
 #container-principal {
-  background-color: aquamarine;
+  background-color: #4ac49b;
   text-align: center;
   margin: 0.45rem auto;
   color: black;
 }
 
 .container-principal {
-  background-color: aquamarine;
+  background-color: #4ac49b;
   margin: 0 0 0;
   padding: 0px;
   display: flex;
@@ -33,7 +33,7 @@
 }
 
 .container-tarjet {
-  border: 1px solid #7fffd4;
+  border: 1px solid #4ac49b;
   border-radius: 1rem;
   width: 20rem;
   height: 30rem;
