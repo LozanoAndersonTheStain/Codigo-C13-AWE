@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import './Carrera.css'
+import './Carreras.css'
 
-const Carrera = () => {
+const Carreras = () => {
   const [carreras, setCarrera] = useState([])
   const fechCarreras = async () => {
     const response = await fetch(
@@ -37,4 +37,4 @@ const Carrera = () => {
   )
 }
 
-export default Carrera
+export default Carreras

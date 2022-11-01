@@ -13,13 +13,8 @@ const Footer = () => {
               alt=""
               className="img"
             />
-            <div className='container-description'>
-              <h3>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-                id explicabo, molestiae vel reiciendis atque deserunt? Eaque
-                dicta molestias nulla perspiciatis, dolor exercitationem tempora
-                nobis hic perferendis et consectetur reiciendis?
-              </h3>
+            <div className="container-description">
+              <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
             </div>
           </div>
         </div>
@@ -28,12 +23,7 @@ const Footer = () => {
           <div className="info">
             <img src={imagen} alt="" className="img2" />
             <div>
-              <h3>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-                id explicabo, molestiae vel reiciendis atque deserunt? Eaque
-                dicta molestias nulla perspiciatis, dolor exercitationem tempora
-                nobis hic perferendis et consectetur reiciendis?
-              </h3>
+              <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
             </div>
           </div>
         </div>
