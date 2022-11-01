@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Codigo-C13-AWE/static/css/main.8c172ac0.css",
+    "main.js": "/Codigo-C13-AWE/static/js/main.ae877dc7.js",
+    "index.html": "/Codigo-C13-AWE/index.html",
+    "main.8c172ac0.css.map": "/Codigo-C13-AWE/static/css/main.8c172ac0.css.map",
+    "main.ae877dc7.js.map": "/Codigo-C13-AWE/static/js/main.ae877dc7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c172ac0.css",
+    "static/js/main.ae877dc7.js"
+  ]
+}
