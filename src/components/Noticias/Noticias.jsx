@@ -43,14 +43,14 @@ const noticiaasInfo = [
 const Noticias = () => {
   return (
     <div className="container-noticias">
-      {noticiaasInfo.map((noticia) => 
-        <NoticiasTarjeta 
-        url={noticia.url}
-        name={noticia.name}
-        description={noticia.description}
-        detalles={noticia.detalles}
+      {noticiaasInfo.map((noticia) => (
+        <NoticiasTarjeta
+          url={noticia.url}
+          name={noticia.name}
+          description={noticia.description}
+          detalles={noticia.detalles}
         />
-      )}
+      ))}
 
       {/* <NoticiasTarjeta
         url="https://cdn.pixabay.com/photo/2022/09/29/17/15/halloween-7487706_960_720.jpg"

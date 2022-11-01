@@ -3,10 +3,10 @@ import './NoticiasTargeta.css'
 
 const NoticiasTarjeta = ({ url, name, description, detalles }) => {
   return (
-    <div className="container">
-      <section className="container-principal">
-        <div className='container-tarjets'>
-          <div className="container-tarjet">
+    <div className="container-n">
+      <section className="container-principal-n ">
+        <section className="container-tarjets-n">
+          <div className="container-tarjet-n">
             <img src={url} alt="" className="imagen" />
             <div className="container-text">
               <h2 className="tittle">{name}</h2>
@@ -16,10 +16,8 @@ const NoticiasTarjeta = ({ url, name, description, detalles }) => {
               </span>
             </div>
           </div>
-        </div>
+        </section>
       </section>
-
-
     </div>
   )
 }
