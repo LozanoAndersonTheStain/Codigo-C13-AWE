@@ -9,7 +9,6 @@ const Carreras = () => {
     )
     const data = await response.json()
     setCarrera(data)
-    console.log(data)
   }
   useEffect(() => {
     fechCarreras()
