@@ -8,7 +8,7 @@ const NoticiasTarjeta = ({ url, name, description, detalles }) => {
         <section className="container-tarjets-n">
           <div className="container-tarjet-n">
             <img src={url} alt="" className="imagen" />
-            <div className="container-text">
+            <div className="container-text-n">
               <h2 className="tittle">{name}</h2>
               <h4 className="description">{description}</h4>
               <span className="detalles">

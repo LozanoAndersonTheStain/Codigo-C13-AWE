@@ -19,7 +19,7 @@ const noticiaasInfo = [
   },
   {
     id: 3,
-    url: 'https://cdn.pixabay.com/photo/2022/10/19/07/45/zombie-7531835_960_720.jpg',
+    url: 'https://cdn.pixabay.com/photo/2022/10/09/02/16/haunted-house-7508035_960_720.jpg',
     name: 'Noticia 3',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     detalles: 'Ver más ',
@@ -28,13 +28,6 @@ const noticiaasInfo = [
     id: 4,
     url: 'https://cdn.pixabay.com/photo/2022/10/24/14/48/forest-7543646_960_720.jpg',
     name: 'Noticia 4',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    detalles: 'Ver más ',
-  },
-  {
-    id: 5,
-    url: 'https://cdn.pixabay.com/photo/2022/10/09/02/16/haunted-house-7508035_960_720.jpg',
-    name: 'Noticia 5',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     detalles: 'Ver más ',
   },

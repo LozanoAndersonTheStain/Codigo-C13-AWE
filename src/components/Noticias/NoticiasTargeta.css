@@ -5,18 +5,16 @@
 
 .container-n {
   display: flex;
-  background: #4ac49c;
+  background: #4abcc4;
 }
 
-.tittle{
+.tittle {
   position: relative;
   align-items: center;
-  
 }
 
 .container-principal-n {
   display: flex;
-  background-color: #4ac49b;
   text-align: center;
   margin: 0.45rem auto;
   color: black;
@@ -52,25 +50,25 @@
   overflow: hidden;
 }
 
-.container-text {
+.container-text-n {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background: rgba(0, 0, 0, 0.4);
-  opacity: 0;
+  opacity: 1;
   transition: 0.5s;
   text-align: center;
   border-radius: 0 0 15px 15px;
 }
 
-.container-text {
+.container-text-n {
   display: flex;
   color: rgba(255, 255, 255, 0.8);
   margin: -4px 0px 0px;
 }
 
-.container-text:hover {
+.container-text-n:hover {
   opacity: 1;
 }
 
